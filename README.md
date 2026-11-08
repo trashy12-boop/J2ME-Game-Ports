@@ -8,14 +8,14 @@ Created and maintained by **Trashy12**.
 
 | Game | Version | Platform | Notes |
 | --- | --- | --- | --- |
-| **Nyan Cat: Lost in Space** | **v0.4.0** | Java ME (CLDC 1.1 / MIDP 2.0) | Fan port built for **320×240** displays. |
-| **Suika Game** | **v0.2.5** | Java ME (CLDC 1.1 / MIDP 2.0) | Personal Java ME conversion. |
+| **[Nyan Cat: Lost in Space](games/Nyan_Cat_Lost_in_Space_J2ME_320x240_v0.4.jar)** | **v0.4.0** | Java ME (CLDC 1.1 / MIDP 2.0) | Fan port built for **320×240** displays. |
+| **[Suika Game](games/Suika_Game_0.2.5.jar)** | **v0.2.5** | Java ME (CLDC 1.1 / MIDP 2.0) | Personal Java ME conversion. |
 
-> The initial JAR builds are being prepared for upload. Once added, they'll be available in the repository's `games/` folder.
+> Both downloadable JARs are available in the [`games/`](games/) folder.
 
 ## How to play
 
-1. Download the game's `.jar` file from the `games/` folder once it's available.
+1. Download the game's `.jar` file from the `games/` folder 
 2. Open it in a compatible J2ME emulator or on a device that supports **MIDP 2.0 / CLDC 1.1**.
 3. For the Nyan Cat port, use a **320×240** display setting when your emulator allows it.
 
