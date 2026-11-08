@@ -1,0 +1,30 @@
+name: Assemble Suika Game JAR
+
+on:
+  push:
+    paths:
+      - 'games/parts/suika/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reassemble Suika Game
+        run: |
+          cat games/parts/suika/part-* > games/Suika_Game_0.2.5.jar
+          echo "e064a895e587f7044887965f557a015d05d5c1d0  games/Suika_Game_0.2.5.jar" > /tmp/expected.sha
+          git hash-object games/Suika_Game_0.2.5.jar | grep -Fx e064a895e587f7044887965f557a015d05d5c1d0
+      - name: Commit assembled JAR
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games/Suika_Game_0.2.5.jar
+          if ! git diff --cached --quiet; then
+            git commit -m "Add assembled Suika Game J2ME JAR"
+            git push
+          fi
