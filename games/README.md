@@ -4,8 +4,8 @@ This folder holds the playable Java ME builds for the projects listed in the [ma
 
 | Game | Version | Archive |
 | --- | --- | --- |
-| Nyan Cat: Lost in Space | 0.4.0 | `Nyan_Cat_Lost_in_Space_J2ME_320x240_v0.4.jar` |
-| Suika Game | 0.2.5 | `Suika_Game_0.2.5.jar` |
+| Nyan Cat: Lost in Space | 0.4.0 | [Download JAR](Nyan_Cat_Lost_in_Space_J2ME_320x240_v0.4.jar) |
+| Suika Game | 0.2.5 | [Download JAR](Suika_Game_0.2.5.jar) |
 
 Both builds require **MIDP 2.0 / CLDC 1.1**. Nyan Cat is designed for 320×240 resolution.
 
