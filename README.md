@@ -28,7 +28,3 @@ This is a home for my J2ME projects: ports, conversions, experiments, and update
 ## Disclaimer
 
 These are **unofficial fan-made projects**. Original game names, characters, artwork, sounds, and other third-party assets belong to their respective owners. This repository is not affiliated with or endorsed by the original developers or publishers. Please respect applicable copyrights and licenses.
-
----
-
-**Made by Trashy12.**
